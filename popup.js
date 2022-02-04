@@ -27,7 +27,7 @@ window.onload = async () => {
 
   const youtubeInfo = streamInfo[0];
   const youtubeTitle = document.getElementById("youtubeTitle");
-  youtubeTitle.innerHTML = `Latest Video: </br> ${youtubeInfo.vidTitle}`;
+  youtubeTitle.innerHTML = youtubeInfo.vidTitle;
   const youtubeDescription = document.getElementById("youtubeDescription");
   youtubeDescription.innerHTML = youtubeInfo.vidDesc;
   const watchButtonYT = document.getElementById("watchButtonYT");
